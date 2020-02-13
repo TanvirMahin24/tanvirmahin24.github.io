@@ -84,17 +84,15 @@ footer{
     min-height: 200vh;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20%;
-    color: #222629;
-}
-.right{
-    color: #222629;
+    
+    color: #fff;
 }
 .content{
-    margin-left: 10%;
+    
     margin-top: 3%;
 }
 .intro-container{
+    padding-top: 20%;
     color: #fff;
     justify-self: center;
     align-items: center;
