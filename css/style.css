@@ -77,7 +77,7 @@ footer{
         font-size: 12px;
     }
 }
-.right{
+.rightHome{
     background: url(../images/bg.jpg);
     background-attachment: fixed;
     flex-direction: row;
@@ -86,6 +86,13 @@ footer{
     justify-content: space-around;
     padding-top: 20%;
     color: #222629;
+}
+.right{
+    color: #222629;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 3%;
 }
 .intro-container{
     color: #fff;
