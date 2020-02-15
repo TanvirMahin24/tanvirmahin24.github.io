@@ -3,15 +3,14 @@
     padding: 0;
     
 }
-body{
-    overflow: hidden;
-}
+
 .left{
     height: 100vh;
     background-color: #222629;
     color: #7b7d7f;
     text-align: right;
     position: fixed;
+    margin-bottom: -2%;
 }
 .tM{
     color: azure;
@@ -81,15 +80,13 @@ footer{
     background: url(../images/bg.jpg);
     background-attachment: fixed;
     flex-direction: row;
-    min-height: 200vh;
+    min-height: 100vh;
     align-items: center;
     justify-content: space-around;
-    
     color: #fff;
 }
 .content{
-    
-    margin-top: 3%;
+    padding-top: 3%;
 }
 .intro-container{
     padding-top: 30%;
