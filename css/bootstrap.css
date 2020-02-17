@@ -6663,6 +6663,11 @@ button.bg-dark:focus {
   border-color: #f8f9fa !important;
 }
 
+.border-custom {
+  border-color: #e27689 !important;
+}
+
+
 .border-dark {
   border-color: #222629 !important;
 }
