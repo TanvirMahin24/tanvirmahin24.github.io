@@ -81,6 +81,11 @@
 .description{
     font-size: 24px;
 }
+.imgGallary img:hover{
+    transform: scale(1.075);
+    border: 5px solid #e27689;
+}
+
 @media screen and (min-width: 992px) {
     .left{
         height: 100vh;
