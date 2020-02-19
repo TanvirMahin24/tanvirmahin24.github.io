@@ -1,16 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
-
 .left{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #222629;
     color: #7b7d7f;
     text-align: right;
     position: fixed;
-    margin-bottom: -2%;
 }
 .tM{
     color: azure;
@@ -27,7 +24,6 @@
 
 }
 .navbar ul li{
-    padding:3% 0px;
     align-items: center;
     list-style: none;
     overflow: hidden;
@@ -53,37 +49,22 @@
 .active{
     color: #e27689;    
 }
-footer{
-    margin: 60px;
-    display: flex;
-}
-
 .ic{
     color: #7b7d7f;
     font-size: 24px;
     padding: 10px 10px;
-    
-
 }
 .ic:hover{
     color:azure;
 }
-@media screen and (max-width: 800px){
-    .nvTitle{
-        display: none;
-    }
-    .tM{
-        font-size: 12px;
-    }
-}
 .rightHome{
-    background: url(../images/bg.jpg);
-    background-attachment: fixed;
+    background: url(../images/bg.jpg) fixed;
     flex-direction: row;
     min-height: 100vh;
     align-items: center;
     justify-content: space-around;
     color: #fff;
+
 }
 .content{
     padding-top: 3%;
@@ -100,4 +81,9 @@ footer{
 .description{
     font-size: 24px;
 }
-
+@media screen and (min-width: 992px) {
+    .left{
+        height: 100vh;
+        overflow: hidden;
+    }
+}
