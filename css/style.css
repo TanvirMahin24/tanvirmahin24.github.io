@@ -85,6 +85,23 @@
     transform: scale(1.075);
     border: 5px solid #e27689;
 }
+.rightAbout{
+    background: url(../images/bg.jpg) fixed;
+    color: #efefef;
+}
+.aboutImg{
+    transform: translate(0%, -50%);
+}
+.about{
+    background: #222629;
+    margin-top: 10%;
+}
+.aboutContent{
+    transform: translate(0%, -12%);
+}
+.info{
+    color: #b4b7b9;
+}
 
 @media screen and (min-width: 992px) {
     .left{

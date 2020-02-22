@@ -6561,6 +6561,10 @@ button.bg-warning:focus {
   background-color: #dc3545 !important;
 }
 
+.bg-custom {
+  background-color: #e27689 !important;
+}
+
 a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
 button.bg-danger:focus {
