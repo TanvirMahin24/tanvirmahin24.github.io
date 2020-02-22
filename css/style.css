@@ -91,6 +91,7 @@
 }
 .aboutImg{
     transform: translate(0%, -50%);
+    overflow: hidden;
 }
 .about{
     background: #222629;
@@ -98,6 +99,7 @@
 }
 .aboutContent{
     transform: translate(0%, -12%);
+    overflow: hidden;
 }
 .info{
     color: #b4b7b9;
@@ -106,6 +108,13 @@
 @media screen and (min-width: 992px) {
     .left{
         height: 100vh;
+        overflow: hidden;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .aboutContent{
+        transform: translate(0%, 0%);
         overflow: hidden;
     }
 }
